@@ -1,4 +1,4 @@
-
+package member;
 
 public class Member {
     private int age;
@@ -60,7 +60,7 @@ public class Member {
 
     @Override
     public String toString() {
-        return "Member{" +
+        return "member.Member{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
                 ", phoneNumber=" + phoneNumber +
